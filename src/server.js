@@ -4,17 +4,7 @@ import dbConnector from "../dbConnector.js";
 import cors from "@fastify/cors";
 
 const envToLogger = {
-    development: {
-        transport: {
-            target: "pino-pretty",
-            options: {
-                translateTime: "HH:MM:ss Z",
-                ignore: "pid,hostname",
-                colorize: "true",
-                colorizeObjects: "true",
-            },
-        },
-    },
+    development: true,
     production: true,
     test: false,
 };
