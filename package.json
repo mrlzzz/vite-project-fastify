@@ -1,0 +1,24 @@
+{
+    "name": "vite-project-fastify",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon ./src/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@fastify/cors": "^8.4.0",
+        "@fastify/mongodb": "^8.0.0",
+        "fastify": "^4.24.3",
+        "fastify-plugin": "^4.5.1",
+        "nodemon": "^3.0.1"
+    },
+    "devDependencies": {
+        "pino-pretty": "^10.2.3"
+    }
+}
